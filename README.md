@@ -1,39 +1,29 @@
-# LaTeX template for academic papers at IU International University
+# IU LaTeX Clean Template
 
-This repository contains a LaTeX template for academic papers at [IU International University](https://www.iu.de/). The template is tailored to the requirements of IU International University and takes into account all formalities known to me that apply to the submission of academic papers at IU International University.
+Dieses Repository enthält ein minimalistisches LaTeX-Template für wissenschaftliche Arbeiten an der [IU Internationale Hochschule](https://www.iu.de/), wie z. B. Hausarbeiten, Essays oder kleinere Forschungsberichte.
 
-## Disclaimer
+Die Vorlage basiert auf dem Projekt [markushaug/iu-latex-template](https://github.com/markushaug/iu-latex-template), wurde jedoch von mir (Becci) vereinfacht, bereinigt und für generische Verwendungen angepasst.  
 
-This template is provided without guarantee or warranty. The author assumes no responsibility for the accuracy or reliability of the information contained in this template or for the consequences of its use. Please use it at your own risk and responsibility.
+> **Hinweis:** Diese Version ist **kein offizielles IU-Template** und steht in keinem Zusammenhang mit der IU.  
+> Sie wurde von Studierenden erstellt und dient nur als unterstützende Vorlage.
 
-**Note**: This is an open source project created by IU International University students. There is no official affiliation with or endorsement by IU International University.
+## Änderungen gegenüber dem Original
+- Entfernt: Bachelor-/Master-spezifische Kapitel, Anhänge und Vorlagen.
+- Bereinigte Projektstruktur.
+- Vereinfachte Präambel.
+- Leichtgewichtige Vorlage für schnelle Nutzung in Overleaf oder lokal.
 
-## Usage
+## Nutzung
+1. Repository clonen oder als ZIP herunterladen.
+2. In Overleaf importieren **oder** lokal mit LuaHBTeX (TeX Live 2022+) kompilieren:
+    ```bash
+    lualatex template.tex
+    ```
+3. Bei Verwendung einer `.bib`-Datei:
+    ```bash
+    biber template
+    ```
 
-To use this template, simply clone or download this repository and start writing your scientific paper. Please make sure you keep the original credits in the source code. Don't worry, this will not be visible in any of your submissions.
-
-Please note that the use of LuaHBTeX, version 1.15.0 (TeX Live 2022) is required. If you use Overleaf, you can easily change this in the settings of the respective work, locally you have to configure it accordingly.
-
-Alternatively, you can open the repository in Visual Studio Code and use the LaTeX Workshop Extension to generate the PDF. A devcontainer automatically downloads and installs the required TeX Live version. All other required packages are also installed automatically.
-
-### Commands
-
-To generate the PDF, execute the following command:
-
-```shell
-$ lualatex main
-```
-
-In case of changes to the `.bib` file, the following command must be executed to update the references:
-
-```shell
-$ biber main
-```
-
-### Contributions
-
-Contribution to this template is highly welcome. Please open a pull-request with your proposed changes and do not forget to assign me, so that I get notified. 
-
-## Licence
-
-This template is licensed under the MIT Licence. See the [LICENSE](LICENSE) file for more information.
+## Lizenz
+MIT – siehe [LICENSE](LICENSE).  
+Basierend auf dem ursprünglichen Projekt [markushaug/iu-latex-template](https://github.com/markushaug/iu-latex-template).
