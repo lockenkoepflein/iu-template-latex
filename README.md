@@ -1,25 +1,29 @@
-# IU LaTeX Template
+# IU LaTeX Template (Overleaf-ready)
 
-Dieses Repository enthält ein minimalistisches LaTeX-Template für wissenschaftliche Arbeiten an der [IU Internationale Hochschule](https://www.iu.de/), wie z. B. Hausarbeiten, Workbooks oder Fallstudien.
+Dieses Repository enthält ein minimalistisches LaTeX-Template für wissenschaftliche Arbeiten an der [IU Internationale Hochschule](https://www.iu.de/), wie z. B. Hausarbeiten, Fallstudien oder Advanced Workbooks.  
+Die Vorlage wurde optimiert für die einfache Verwendung in [Overleaf](https://www.overleaf.com/).
 
-Die Vorlage basiert auf dem Projekt [markushaug/iu-latex-template](https://github.com/markushaug/iu-latex-template), wurde jedoch von mir @lockenkoepflein vereinfacht, bereinigt und für generische Verwendungen angepasst.  
+## Ursprung
+Diese Vorlage basiert auf dem Projekt [markushaug/iu-latex-template](https://github.com/markushaug/iu-latex-template), wurde jedoch von mir (@lokenkoepflein) stark reduziert und angepasst.
 
-> **Hinweis:** Diese Version ist **kein offizielles IU-Template** und steht in keinem Zusammenhang mit der IU.  
-> Sie wurde von Studierenden erstellt und dient nur als unterstützende Vorlage.
+## Was ist anders?
+- Reduziertes Template.
+- Vereinfachte Projektstruktur.
+- Keine Entwickler-Tools wie Docker oder VS Code Konfigurationen mehr enthalten.
+- Kompatibel mit LuaHBTeX (empfohlen von der IU, kann in Overleaf eingestellt werden).
 
-## Änderungen gegenüber dem Original
+## Nutzung in Overleaf
+1. Lade das Repository als ZIP herunter:
+   - Klicke auf **Code → Download ZIP**.
+2. Entpacke die ZIP-Datei lokal.
+3. Lade alle Dateien in ein neues Projekt bei [Overleaf](https://www.overleaf.com/).
+4. **In Overleaf → Settings → Compiler: LuaLaTeX auswählen**.
+5. Kompiliere das Dokument (`template.tex`).
 
-
-## Nutzung
-1. Repository clonen oder als ZIP herunterladen.
-2. In Overleaf importieren **oder** lokal mit LuaHBTeX (TeX Live 2022+) kompilieren:
-    ```bash
-    lualatex template.tex
-    ```
-3. Bei Verwendung einer `.bib`-Datei:
-    ```bash
-    biber template
-    ```
+Optional:  
+Wenn du ein Literaturverzeichnis verwendest (`references.bib`):
+- Stelle sicher, dass Overleaf **Biber** als Backend verwendet.
+- Nutze dann die `recompile` Funktion in Overleaf (läuft automatisch durch).
 
 ## Lizenz
 MIT – siehe [LICENSE](LICENSE).  
