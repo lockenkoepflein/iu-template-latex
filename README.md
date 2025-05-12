@@ -1,4 +1,4 @@
-# IU LaTeX Clean Template (Overleaf-ready)
+# IU LaTeX Template (Overleaf-ready)
 
 This repository provides a minimalistic LaTeX template for academic papers at [IU International University](https://www.iu.de/), such as essays, term papers, or advanced workbooks.  
 The template is optimized for easy use in [Overleaf](https://www.overleaf.com/).
