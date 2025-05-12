@@ -1,30 +1,30 @@
-# IU LaTeX Template (Overleaf-ready)
+# IU LaTeX Clean Template (Overleaf-ready)
 
-Dieses Repository enthält ein minimalistisches LaTeX-Template für wissenschaftliche Arbeiten an der [IU Internationale Hochschule](https://www.iu.de/), wie z. B. Hausarbeiten, Fallstudien oder Advanced Workbooks.  
-Die Vorlage wurde optimiert für die einfache Verwendung in [Overleaf](https://www.overleaf.com/).
+This repository provides a minimalistic LaTeX template for academic papers at [IU International University](https://www.iu.de/), such as essays, term papers, or advanced workbooks.  
+The template is optimized for easy use in [Overleaf](https://www.overleaf.com/).
 
-## Ursprung
-Diese Vorlage basiert auf dem Projekt [markushaug/iu-latex-template](https://github.com/markushaug/iu-latex-template), wurde jedoch von mir (@lokenkoepflein) stark reduziert und angepasst.
+## Origin
+This template is based on the project [markushaug/iu-latex-template](https://github.com/markushaug/iu-latex-template), but has been heavily reduced and adapted by me (@lockenkoepflein).
 
-## Was ist anders?
-- Reduziertes Template.
-- Vereinfachte Projektstruktur.
-- Keine Entwickler-Tools wie Docker oder VS Code Konfigurationen mehr enthalten.
-- Kompatibel mit LuaHBTeX (empfohlen von der IU, kann in Overleaf eingestellt werden).
+## What's different?
+- Simplified template.
+- Cleaned and flat project structure.
+- Removed all developer tools like Docker and VS Code settings.
+- Fully compatible with LuaHBTeX (recommended by IU – can be set in Overleaf).
 
-## Nutzung in Overleaf
-1. Lade das Repository als ZIP herunter:
-   - Klicke auf **Code → Download ZIP**.
-2. Entpacke die ZIP-Datei lokal.
-3. Lade alle Dateien in ein neues Projekt bei [Overleaf](https://www.overleaf.com/).
-4. **In Overleaf → Settings → Compiler: LuaLaTeX auswählen**.
-5. Kompiliere das Dokument (`template.tex`).
+## Usage in Overleaf
+1. Download the repository as ZIP:
+   - Click **Code → Download ZIP**.
+2. Extract the ZIP archive locally.
+3. Upload all files to a new project in [Overleaf](https://www.overleaf.com/).
+4. In Overleaf → **Settings → Compiler: select LuaLaTeX**.
+5. Compile the document (`template.tex`).
 
 Optional:  
-Wenn du ein Literaturverzeichnis verwendest (`references.bib`):
-- Stelle sicher, dass Overleaf **Biber** als Backend verwendet.
-- Nutze dann die `recompile` Funktion in Overleaf (läuft automatisch durch).
+If you want to use a bibliography (`references.bib`):
+- Make sure to select **Biber** as backend in Overleaf settings.
+- Then simply **Recompile** (Overleaf will handle everything automatically).
 
-## Lizenz
-MIT – siehe [LICENSE](LICENSE).  
-Basierend auf dem ursprünglichen Projekt [markushaug/iu-latex-template](https://github.com/markushaug/iu-latex-template).
+## License
+MIT – see [LICENSE](LICENSE).  
+Based on the original project [markushaug/iu-latex-template](https://github.com/markushaug/iu-latex-template).
