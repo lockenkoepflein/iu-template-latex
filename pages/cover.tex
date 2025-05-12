@@ -1,0 +1,44 @@
+%% Title Page
+\def\usesf{}
+\let\usesf\sffamily % Uncomment this line for the default TeX font
+
+\newsavebox{\Tutor}
+\savebox{\Tutor}{<Name of the Tutor>}
+
+
+\setlength{\unitlength}{1pt}
+
+\begin{titlepage}
+%\vspace*{-39pt}\hspace*{300pt}\includegraphics[width=.27\paperwidth]{logos/IOSB}
+\vspace{-39pt}\hspace*{300pt}\includegraphics[width=.21\paperwidth]{logos/iu_Logo_EN.jpg}
+
+\begin{center}
+\hbox{}
+\vfill
+{\usesf}
+{\huge\bfseries My Case Study \par}
+\vskip 1.8cm
+Case Study\\[2mm]
+\vskip 1cm
+
+{\large\bfseries Markus Haug (<Student ID>)\\}
+\vskip 1.2cm
+Business Informatics (B.Sc.)\\
+% in the Module\\
+ABCDF01 - Course Code\\
+\today % TODO: Check Date
+\vskip 3cm
+\begin{tabular}{p{3cm}l}
+Tutor: & \usebox{\Tutor} \\
+\end{tabular}
+\vfill
+\end{center}
+
+\end{titlepage}
+%% End of Title Page
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "thesis"
+%%% End:
